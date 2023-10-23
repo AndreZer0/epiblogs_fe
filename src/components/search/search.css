@@ -1,0 +1,21 @@
+/** @format */
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  flex-direction: column;
+}
+.search-bar h3 {
+  color: white;
+  font-weight: lighter;
+}
+
+.search-bar input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}

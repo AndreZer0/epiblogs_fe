@@ -1,0 +1,26 @@
+/** @format */
+
+.libri {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.libri table {
+  width: 100%;
+  max-width: 100%;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .libri table th:nth-child(3) {
+    display: none;
+  }
+  .libri table td:nth-child(3) {
+    display: none;
+  }
+
+  .libri {
+    padding: 5px;
+  }
+}

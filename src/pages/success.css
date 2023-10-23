@@ -1,0 +1,75 @@
+/** @format */
+
+.return {
+  height: 100vh;
+  color: rgb(212, 8, 8);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://miro.medium.com/v2/resize:fit:1400/0*I2e6YVHLWkglKkBw.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.return h1,
+h2 {
+  font-family: 'Nosifer';
+  font-size: 40px;
+
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.back {
+  background-color: #b81515;
+  padding: 7px;
+  width: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  animation: bn53bounce 4s infinite;
+  cursor: pointer;
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+@keyframes bn53bounce {
+  5%,
+  50% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(1);
+  }
+
+  15% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(1) rotate(-5deg);
+  }
+
+  25% {
+    transform: scale(1) rotate(5deg);
+  }
+
+  30% {
+    transform: scale(1) rotate(-3deg);
+  }
+
+  35% {
+    transform: scale(1) rotate(2deg);
+  }
+
+  40% {
+    transform: scale(1) rotate(0);
+  }
+}
+@media (max-width: 768px) {
+  .return {
+    height: 100vh;
+  }
+}
