@@ -82,7 +82,7 @@ const Signup = () => {
         setTimeout(() => {
           setMessage('');
           setIsSuccessful(true);
-          navigate('/');
+          navigate('https://leafy-platypus-dcee28.netlify.app');
         }, 3000);
       } else {
         setMessage("Errore durante la creazione dell'autore");
